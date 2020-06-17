@@ -1,0 +1,75 @@
+html{
+    background-color: whitesmoke;
+}
+nav{
+    background-color: grey;
+    height:40px;
+}
+
+.nav-left{
+    float:left;
+    padding:15px;
+    color: white;
+}
+a.left{
+    padding:7px;
+}
+.nav-right{
+    float:right;
+    padding-right: 35px;
+}
+
+.left{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.drop{
+    text-decoration: none;
+    color:black;
+
+}
+.drop:hover{
+    
+    border: 2px solid lightblue;
+}
+.fa {
+    font-size: 25px;
+    line-height: 30px;
+    height: 35px;
+    width:27px;
+    padding-top: 5px;
+    padding-left: 3px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+    .dropdown:hover .dropdown-content{
+          display:block;
+          cursor: pointer;
+      }
+
+      
+      

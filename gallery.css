@@ -1,0 +1,40 @@
+html{
+    background-color: whitesmoke;
+    height: 75%;
+}
+
+
+.gallery{
+    columns: 3;
+    width: 75%;
+    grid-template-rows: 2;
+    margin-left: 70px;
+    padding-left: 12px;
+}
+.column1{
+    margin-left: 120px;
+    margin-bottom:8px ;
+}
+
+.row11{
+    margin-left: 120px;
+}
+.column2{
+    margin-left:190px ;
+    margin-bottom:8px ;
+
+}
+.row21{
+    margin-left:190px ;
+}
+
+.column3{
+    margin-left: 106px;
+    margin-bottom:8px ;
+
+}
+
+.row31{
+    margin-left: 220px;
+    
+}

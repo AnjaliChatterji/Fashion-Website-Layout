@@ -1,0 +1,69 @@
+html{
+    background-color: white;
+}
+
+.jumbotron1{
+    background-color: whitesmoke;
+    columns: 2;
+    margin-top: 80px;
+    height: 35%;
+    width: 100%;
+}
+.one{
+    padding-left: 400px;
+    max-width: 350px;
+    text-align: left;
+}
+.two{
+    padding-left: 100px;
+    max-width: 350px;
+    text-align:left ;
+}
+.h{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.info{
+    font-family: monospace;
+    font-size: 15px;
+    color: grey;
+
+}
+.info1{
+    font-family: monospace;
+    font-size: 15px;
+    padding-top: 35px;
+    color: grey;
+    margin-top: 20px;
+}
+#email{
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.jumbotron2{
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 35%;
+    width: 100%;
+}
+
+#arrow{
+    margin-top: 8px;
+    border-radius:35% ;
+    background-color: red;
+}
+.h{
+ margin-bottom: 20px;
+}
+
+.left1{
+    text-decoration: none;
+    color: gray;
+    padding:7px;
+}
+.copyright{
+    color:gray;
+}

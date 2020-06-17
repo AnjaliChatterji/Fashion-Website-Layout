@@ -1,0 +1,49 @@
+html{
+    /* padding: 50px; */
+    background-color: whitesmoke;
+}
+.container{
+    padding-left: 75px;
+}
+.para{
+    max-width: 500px;
+}
+.start{
+    margin-left: 350px;
+}
+h2{
+    text-decoration: underline;
+}
+
+.column{
+    float:left;
+    widows: 25%;
+    
+}
+.card{
+    margin-left: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+    width: 270px;
+
+}
+.heading{
+    margin-top: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+.info{
+    margin-top: 65px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.intro::first-letter{
+    font-size: 40px;
+    text-decoration: none;
+}
+.intro2{
+    font-size: 40px;
+    text-decoration: none;
+}

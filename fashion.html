@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="fashion.css">
+
+        
+        <style>
+            .sliders{
+                display: none;}
+            
+
+            
+        </style>
+    </head>
+    <body>
+        <nav>
+        <div class="nav-left">
+            <a  class="left" href="./fashion.html" >Home</a>
+            <a class="left" href="./about1.html">About</a> 
+            <div class="dropdown"><span class="left">Dropdown </span>
+                <div class="dropdown-content">
+                <a class="drop" href="./services.html">Services</a><br>
+                <a class="drop" href="./facts.html">Company Facts</a><br>
+                <a class="drop" href="./news.html">NewsLetter</a>
+                </div>
+            </div>
+            <a class="left" href="./gallery.html">Gallery</a>
+            <a class="left" href="./contact.html">Contact Us</a>
+        </div>
+
+        <div class="nav-right">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+
+        </div>
+        </nav>
+
+        <div class="slider">
+            
+            <img class="sliders" src="./front1.jpg" style=width:100%;height:90%;>
+            
+            <img class="sliders" src="./front2.jpg" style=width:100%;height:90%;>
+            
+            <img class="sliders" src="./front3.jpg" style=width:100%;height:90%;>
+            
+            <img class="sliders" src="./front4.jpg" style=width:100%;height:90%;>
+            
+        </div>
+        <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("sliders");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); 
+        }
+        </script>
+    </body>
+</html>

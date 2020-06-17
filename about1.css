@@ -1,0 +1,98 @@
+html{
+    background-color: whitesmoke;
+    height: 30%;
+}
+.cont{
+columns: 2;
+display: inline-block;
+}
+
+.one{
+    margin-top: 60px;
+    margin-left:280px;
+    width: 350px;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    
+}
+.one1{
+    margin-top: 20px;
+    margin-left:280px;
+    width: 450px;
+    font-family: monospace;
+    font-size: 20px;
+    
+}
+.two{
+    margin-top: 500px;
+    padding-top: 60px;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.two2{
+    
+    padding-top: 0px;
+    width: 450px;
+    font-family: monospace;
+    font-size: 20px;
+    }
+flip1{
+    height:243px;
+    width:208;
+    
+    
+}
+.flip-inner1{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width:100%;
+    transform-style: preserve-3d;
+    transition: all 0.5sec ease;
+}
+
+.flip-inner1:hover{
+    transform: rotateY(180deg);
+}
+.flip-front1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    /* margin-left: 300px; */
+
+}
+.flip-back1{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+#image1{
+    margin-left: 280px;
+    display: inline-block;
+}
+
+
+#image1, #image2{
+    box-shadow: 0px 8px 16px 0px darkgrey;
+
+}
+#image2{
+height:243px;
+width:258;
+margin-top: 0px;
+
+margin-right: 300px;
+}
+
+.leftside{
+    display: inline-block;
+}
+figcaption{
+    margin-left:280px;
+    color:grey;
+}
